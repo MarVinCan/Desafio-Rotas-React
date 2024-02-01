@@ -1,10 +1,9 @@
-import './styles.css';
-export default function Home(){
+export default function About(){
     return (
         <main>
           <section id='home-section'>
             <div className='container'>
-              <h1 className='msg-home'>Bem-vindos!</h1>
+              <h1 className='msg-home'>Sobre nós</h1>
             </div>
           </section>
         </main>

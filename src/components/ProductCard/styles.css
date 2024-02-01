@@ -1,0 +1,11 @@
+.product-card{
+    background-color: var(--color-bg-tertiary);
+    height: 60px;
+    width: 960px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.card-item{
+    margin-right: 20px;
+}

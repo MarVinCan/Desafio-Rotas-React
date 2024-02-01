@@ -20,7 +20,7 @@ export default function Header() {
             className={({ isActive }) =>
               isActive ? "navbar-item item-actv" : "navbar-item"
             }
-            to="/"
+            to="/products"
           >
             Produtos
           </NavLink>
@@ -28,7 +28,7 @@ export default function Header() {
             className={({ isActive }) =>
               isActive ? "navbar-item item-actv" : "navbar-item"
             }
-            to="/"
+            to="/about"
           >
             Sobre nós
           </NavLink>
