@@ -45,3 +45,8 @@ a, a:hover {
 .mt20 {
     margin-top: 20px;
 }
+.content-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}

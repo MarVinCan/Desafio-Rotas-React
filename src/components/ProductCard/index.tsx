@@ -7,13 +7,13 @@ export default function ProductCard(){
             <div className='product-card'>
                 <NavLink className={({ isActive }) =>
               isActive ? "card-item item-actv" : "card-item"
-            } to={"/computer"}>Computadores</NavLink>
+            } to={"/products/computers"}>Computadores</NavLink>
             <NavLink className={({ isActive }) =>
               isActive ? "card-item item-actv" : "card-item"
-            } to={"/eletronics"}>Eletrônicos</NavLink>
+            } to={"/products/eletronics"}>Eletrônicos</NavLink>
             <NavLink className={({ isActive }) =>
               isActive ? "card-item item-actv" : "card-item"
-            } to={"/books"}>Livros</NavLink>
+            } to={"/products/books"}>Livros</NavLink>
             </div>
         </>
     );
